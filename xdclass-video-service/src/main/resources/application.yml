@@ -9,7 +9,11 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://192.168.200.129:3306/cloud_video?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: Sk85862546/
+    password: Sk123123/
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.129:8848
 # 控制台输出sql、下划线转驼峰
 mybatis:
   configuration:
