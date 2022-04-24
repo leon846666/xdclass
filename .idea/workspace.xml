@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e42ffff7-dffc-411a-b99c-e298297aa862" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e42ffff7-dffc-411a-b99c-e298297aa862" name="Default Changelist" comment="add Ribbon as load balancer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/VideoOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/VideoOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/Video.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/VideoOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-common/target/classes/net/xdclass/domain/VideoOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/controller/OrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-video-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-video-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xdclass-video-service/target/classes/net/xdclass/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-video-service/target/classes/net/xdclass/controller/VideoController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,17 +39,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="968" />
-          <entry key="txt" value="67" />
+          <entry key="txt" value="95" />
           <entry key="xml" value="33" />
-          <entry key="yml" value="144" />
+          <entry key="yml" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="968" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="XML" value="33" />
-          <entry key="YAML" value="144" />
+          <entry key="YAML" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="18">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -99,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -159,10 +159,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="162">
               <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -201,7 +201,6 @@
         <option value="$PROJECT_DIR$/xdclass-video-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/VideoApplication.java" />
-        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java" />
         <option value="$PROJECT_DIR$/xdclass-common/pom.xml" />
@@ -209,8 +208,9 @@
         <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/User.java" />
         <option value="$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/VideoOrder.java" />
-        <option value="$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -513,13 +513,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650725360796" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1650761789630" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -542,7 +542,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Spring Boot.VideoApplication">
     <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="xdclass-order-service" />
       <extension name="coverage">
@@ -577,8 +577,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.VideoApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -595,7 +595,7 @@
       <workItem from="1648879787198" duration="8147000" />
       <workItem from="1650267827996" duration="1091000" />
       <workItem from="1650702977486" duration="2493000" />
-      <workItem from="1650720394070" duration="3478000" />
+      <workItem from="1650720394070" duration="4724000" />
     </task>
     <task id="LOCAL-00001" summary="add alibaba nacos as register center">
       <created>1650706232059</created>
@@ -604,11 +604,18 @@
       <option name="project" value="LOCAL" />
       <updated>1650706232059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Ribbon as load balancer">
+      <created>1650725963754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650725963754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15209000" />
+    <option name="totallyTimeSpent" value="16455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -685,7 +692,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add alibaba nacos as register center" />
-    <option name="LAST_COMMIT_MESSAGE" value="add alibaba nacos as register center" />
+    <MESSAGE value="add Ribbon as load balancer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Ribbon as load balancer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://H:/heimaProject/apache-maven-3.3.9/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR8/spring-cloud-dependencies-Hoxton.SR8.pom">
@@ -825,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-common/src/main/java/net/xdclass/domain/VideoOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -839,13 +840,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -861,11 +855,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="162">
           <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
