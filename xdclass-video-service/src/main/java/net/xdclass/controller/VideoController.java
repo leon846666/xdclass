@@ -3,6 +3,7 @@ package net.xdclass.controller;
 import net.xdclass.domain.Video;
 import net.xdclass.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,12 +18,18 @@ public class VideoController {
     private VideoService videoService;
 
 
-    @RequestMapping("find")
+    @RequestMapping("/find")
     public Object findById(int id, HttpServletRequest request){
         Video video = videoService.findById(id);
         // to see which instance is using
         video.setServerInfo(request.getServerName()+":"+request.getServerPort());
         return video;
+    }
+
+    @RequestMapping("/saveOrder")
+    public int saveOrder(@RequestBody Video video){
+
+        return 1;
     }
 
 }
