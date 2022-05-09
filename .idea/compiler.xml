@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xdclass-api-gateway" />
         <module name="xdclass-common" />
         <module name="xdclass-order-service" />
         <module name="xdclass-user-service" />

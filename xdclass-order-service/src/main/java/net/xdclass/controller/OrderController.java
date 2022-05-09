@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -51,15 +52,11 @@ public class OrderController {
     }
 
     @RequestMapping("list")
-    public Object list(){
-        try {
-            TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public Object list(HttpServletRequest request){
         Map<String,String> map  = new HashMap<>();
         map.put("title1","AlibabaCloud微服务sentinel");
         map.put("title2","Sentinel by Thread");
+        map.put("port",request.getServerPort()+"");
         return map;
     }
 }

@@ -12,6 +12,7 @@
         <module>xdclass-video-service</module>
         <module>xdclass-user-service</module>
         <module>xdclass-order-service</module>
+        <module>xdclass-api-gateway</module>
     </modules>
 
     <!-- ⼀般来说⽗级项⽬的packaging都为pom，

@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e42ffff7-dffc-411a-b99c-e298297aa862" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/services/fallback/VideoServiceFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdclass-api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/filter/UserGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdclass-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xdclass-api-gateway/xdclass-api-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/services/VideoFeignclient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/services/VideoFeignclient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xdclass-order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-order-service/target/classes/net/xdclass/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xdclass-video-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xdclass-video-service/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/xdclass-video-service/target/" />
     <ignored path="$PROJECT_DIR$/xdclass-user-service/target/" />
     <ignored path="$PROJECT_DIR$/xdclass-order-service/target/" />
+    <ignored path="$PROJECT_DIR$/xdclass-api-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,37 +45,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1389" />
-          <entry key="txt" value="200" />
-          <entry key="xml" value="56" />
-          <entry key="yml" value="208" />
+          <entry key="java" value="1622" />
+          <entry key="txt" value="234" />
+          <entry key="xml" value="58" />
+          <entry key="yml" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1389" />
-          <entry key="PLAIN_TEXT" value="200" />
-          <entry key="XML" value="56" />
-          <entry key="YAML" value="208" />
+          <entry key="JAVA" value="1622" />
+          <entry key="PLAIN_TEXT" value="234" />
+          <entry key="XML" value="58" />
+          <entry key="YAML" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
           <entry key="iml" value="2" />
-          <entry key="java" value="27" />
+          <entry key="java" value="30" />
           <entry key="pom" value="2" />
-          <entry key="xml" value="16" />
-          <entry key="yml" value="13" />
+          <entry key="xml" value="19" />
+          <entry key="yml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="27" />
-          <entry key="XML" value="18" />
-          <entry key="YAML" value="13" />
+          <entry key="JAVA" value="30" />
+          <entry key="XML" value="21" />
+          <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -78,19 +83,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xdclass-order-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="47" />
+            <state relative-caret-position="126">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/GatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/filter/UserGlobalFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" selection-start-line="12" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -131,52 +185,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/controller/VideoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/service/VideoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="1044">
+              <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,12 +233,16 @@
         <option value="$PROJECT_DIR$/xdclass-order-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/xdclass-video-service/src/main/java/net/xdclass/service/fallback/VideoServiceFallBack.java" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/services/VideoFeignclient.java" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/services/fallback/VideoServiceFallBack.java" />
         <option value="$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xdclass-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/xdclass-api-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/filter/UserGlobalFilter.java" />
       </list>
     </option>
   </component>
@@ -268,6 +284,59 @@
             <path>
               <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xdclass-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="xdclass-api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xdclass-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -541,7 +610,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652063297279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652071847265" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -570,8 +640,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xdclass-api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.xdclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.xdclass.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="xdclass-order-service" />
       <extension name="coverage">
         <pattern>
@@ -602,9 +685,11 @@
     <list>
       <item itemvalue="Spring Boot.VideoApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.VideoApplication" />
       </list>
@@ -624,7 +709,7 @@
       <workItem from="1650267827996" duration="1091000" />
       <workItem from="1650702977486" duration="2493000" />
       <workItem from="1650720394070" duration="13882000" />
-      <workItem from="1651901599269" duration="4753000" />
+      <workItem from="1651901599269" duration="9189000" />
     </task>
     <task id="LOCAL-00001" summary="add alibaba nacos as register center">
       <created>1650706232059</created>
@@ -661,17 +746,24 @@
       <option name="project" value="LOCAL" />
       <updated>1651904706759</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="openfeign support sentinel">
+      <created>1652063348531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652063348531</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30366000" />
+    <option name="totallyTimeSpent" value="34802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -681,8 +773,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.18566775" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3355049" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -773,7 +865,8 @@
     <MESSAGE value="changed default load balance rule to random, add lambok" />
     <MESSAGE value="feignclient" />
     <MESSAGE value="add sentinel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sentinel" />
+    <MESSAGE value="openfeign support sentinel" />
+    <option name="LAST_COMMIT_MESSAGE" value="openfeign support sentinel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://H:/heimaProject/apache-maven-3.3.9/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR8/spring-cloud-dependencies-Hoxton.SR8.pom">
@@ -929,27 +1022,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-order-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-user-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -957,16 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1004,15 +1070,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-video-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-order-service/src/main/java/net/xdclass/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xdclass-api-gateway/src/main/java/net/xdclass/filter/UserGlobalFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

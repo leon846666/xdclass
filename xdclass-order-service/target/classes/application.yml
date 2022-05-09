@@ -1,5 +1,5 @@
 server:
-  port: 8000
+  port: 8001
 
 spring:
   application:
@@ -18,11 +18,12 @@ spring:
       transport:
         dashboard: 192.168.200.129:8080
         port: 9999
+
 #开启feign支持sentinel
 feign:
   sentinel:
     enabled: true
-    
+
 # 控制台输出sql、下划线转驼峰
 mybatis:
   configuration:
