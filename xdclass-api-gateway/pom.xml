@@ -42,7 +42,10 @@
             <artifactId>reactor-netty</artifactId>
             <version>0.9.6.RELEASE</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
     </dependencies>
 
 
