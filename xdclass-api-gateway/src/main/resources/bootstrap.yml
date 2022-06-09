@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.200.129:8848 #Nacos配置中心地
+        file-extension: yaml #文件拓展格
+  profiles:
+    active: dev

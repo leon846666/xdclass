@@ -4,6 +4,7 @@ import net.xdclass.domain.Video;
 import net.xdclass.domain.VideoOrder;
 import net.xdclass.services.VideoFeignclient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +30,9 @@ public class OrderController {
     @Autowired
     private VideoFeignclient videoFeignclient;
 
+    @Value("${video.title}")
+    private String videoTitle;
+
     @RequestMapping("/findById")
     public Object findById(int videoId) {
         // Video video = restTemplate.getForObject("http://localhost:9000/api/v1/video/find?id=" + videoId, Video.class);
@@ -40,8 +44,10 @@ public class OrderController {
         VideoOrder vo = new VideoOrder();
         vo.setCreateTime(new Date());
         vo.setId(video.getId());
-        vo.setVideoTitle(video.getTitle());
+        vo.setVideoTitle(videoTitle);
         vo.setServerInfo(video.getServerInfo());
+        vo.setTotalFee(video.getPrice());
+
         return vo;
     }
 
